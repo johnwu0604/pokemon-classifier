@@ -1,0 +1,3 @@
+model/dataset/*
+mode/pokedex.model
+__pycache__
