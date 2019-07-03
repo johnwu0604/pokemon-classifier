@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 To train the model: 
 
-1) Download and unzip the dataset into the **model** folder - <ADD Dataset URL>
+1) Download and unzip the dataset into the **model** folder - [https://techx.blob.core.windows.net/pokemon/dataset.zip](https://techx.blob.core.windows.net/pokemon/dataset.zip)
 2) Run the **train.py** file with the following parameters in the **model** folder:
 
 ```
@@ -25,7 +25,7 @@ python train.py --dataset dataset --model pokedex.model --labelbin lb.pickle
 
 To test the model:
 
-1) Download and the weights into the **model** folder (if not previously trained) - <ADD URL>
+1) Download and the weights into the **model** folder (if not previously trained) - [https://techx.blob.core.windows.net/pokemon/pokedex.model](https://techx.blob.core.windows.net/pokemon/pokedex.model)
 2) Run the **classify.py** file with the following parameters in the **model** folder:
 
 ```
@@ -36,7 +36,7 @@ python classify.py --model pokedex.model --labelbin lb.pickle --image examples/c
 
 To run the web application:
 
-1) Download and the weights into the **model** folder (if not previously trained) - <ADD URL>
+1) Download and the weights into the **model** folder (if not previously trained) - [https://techx.blob.core.windows.net/pokemon/pokedex.model](https://techx.blob.core.windows.net/pokemon/pokedex.model)
 2) Run the **app.py** file from the **root** directory:
 
 ```
